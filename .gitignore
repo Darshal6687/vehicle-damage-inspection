@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Dataset folder
+Training/dataset/
+
+# Model files
+*.h5
+*.pth
+*.pkl
+
+# IDE settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
