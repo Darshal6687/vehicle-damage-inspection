@@ -4,7 +4,12 @@ The **Vehicle Damage Inspection App** is an AI-powered system that automatically
 
 ---
 
-![app](app_screenshot.png)
+## 🖼️ App Screenshot
+
+<p align="center">
+  <img src="app_screenshot.png" alt="App Screenshot" width="600"/>
+</p>
+
 
 ---
 
