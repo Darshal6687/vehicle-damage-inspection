@@ -4,6 +4,10 @@ The **Vehicle Damage Inspection App** is an AI-powered system that automatically
 
 ---
 
+![app](app_screenshot.png)
+
+---
+
 ## 💼 Business Use Case
 
 In the automotive and insurance industries, manual vehicle inspections are time-consuming, subjective, and expensive. This project automates vehicle damage assessment by using deep learning to:
@@ -76,38 +80,22 @@ The model uses pre-trained weights on ImageNet and is fine-tuned on a custom car
 
 ### 🔧 Step 1: Install dependencies
 
-```bash
+```commandline
 pip install -r requirements.txt
 ```
 
 ### ▶️ Step 2: Run Streamlit app
 
-```bash
+```commandline
 cd "Streamlit app"
 streamlit run app.py
 ```
 
 ### 🔁 (Optional) Step 3: Run FastAPI server
 
-```bash
+```commandline
 cd ../fastapi
-uvicorn main:app --reload
-```
-
----
-
-## 📥 Sample Input
-
-Upload an image like this:
-
-![Sample Car](https://upload.wikimedia.org/wikipedia/commons/7/75/Damaged_vehicle.jpg)
-
-## 📤 Sample Output
-
-```json
-{
-  "prediction": "Rear Crushed"
-}
+fastapi dev server.py
 ```
 
 ---
