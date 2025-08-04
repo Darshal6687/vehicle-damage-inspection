@@ -30,16 +30,6 @@ In the automotive and insurance industries, manual vehicle inspections are time-
 
 ---
 
-## 📸 Image Requirements
-
-The model is trained on images from:
-- **Third-quarter front view**
-- **Rear view**
-
-📷 Make sure the uploaded image clearly shows either of these angles for accurate predictions.
-
----
-
 ## 🧠 Model Architecture
 
 - **Model:** Transfer Learning with **ResNet50**
@@ -65,7 +55,6 @@ The model uses pre-trained weights on ImageNet and is fine-tuned on a custom car
 | Backend API      | FastAPI                |
 | Model Framework  | PyTorch / torchvision  |
 | Training & Tools | Jupyter Notebook       |
-| Deployment Ready | ✅ Local, ☁️ Cloud (optional) |
 
 ---
 
